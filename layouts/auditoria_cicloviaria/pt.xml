@@ -229,6 +229,9 @@
             <button type="tag" label="Terra/Barro"
                 icon="auditoria_cicloviaria_icons/dirt_floor.png" />
             <button />
+            <button type="tag" label="Antipó"
+                icon="auditoria_cicloviaria_icons/antipo01.png" />
+            <button />
         </row>
         <row>
             <button type="tag" label="Outro pavimento" icon="auditoria_cicloviaria_icons/other.png" />
