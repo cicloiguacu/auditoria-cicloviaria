@@ -811,8 +811,8 @@
     <layout name="rampas">
         <row>
             <button type="tag" label="Travessia elevada" icon="" />
-            <button type="tag" label="Rampa Suave / Acessível" icon="auditoria_cicloviaria_icons/rampas-suave-acessivel.png" />
-            <button type="tag" label="Degrau / Guia Baixa" icon="auditoria_cicloviaria_icons/rampas-degrau-guia-baixa.png" />
+            <button type="tag" label="Rampa Suave / Acessível" icon="auditoria_cicloviaria_icons/rampas_suave_acessivel.png" />
+            <button type="tag" label="Degrau / Guia Baixa" icon="auditoria_cicloviaria_icons/rampas_degrau_guia_baixa.png" />
         </row>
         <row>
             <button type="tag" label="Muito íngrime / Curta" icon="" />
