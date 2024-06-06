@@ -802,8 +802,11 @@
         <row>
             <button type="page" label="Pintura" targetlayout="pintura" icon="" />
         </row>
-        <row>
-            <button type="page" label="Placas" targetlayout="placas" icon="" />
+           <row>
+            <button type="page" label="Placas a motoristas" targetlayout="placas" icon="" />
+        </row>
+   <row>
+            <button type="page" label="Placas a ciclistas" targetlayout="placas" icon="" />
         </row>
     </layout>
 
