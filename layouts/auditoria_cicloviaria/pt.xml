@@ -4,6 +4,8 @@
         <row>
             <button type="page" label="Caracterização" targetlayout="caracterizacao-ciclo"
                 icon="auditoria_cicloviaria_icons/flow_direction.png" />
+            <button type="page" label="Cruzamentos" targetlayout="cruzamentos"
+                icon="auditoria_cicloviaria_icons/cross_condition.png" />
             <button type="page" label="Avaliações" targetlayout="avaliacoes"
                 icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
@@ -21,15 +23,14 @@
                 icon="auditoria_cicloviaria_icons/obstacle.png" />
             <button type="page" label="Riscos" targetlayout="riscos"
                 icon="auditoria_cicloviaria_icons/risk_situation.png" />
-        </row>
-        <row>
             <button type="page" label="Controle de Velocidade"
                 targetlayout="controle_de_velocidade_qte"
                 icon="auditoria_cicloviaria_icons/electronic_spine_route.png" />
-            <button type="page" label="Acessos" targetlayout="acesso_ciclovias"
-                icon="auditoria_cicloviaria_icons/bike_lane_access.png" />
-            <button type="page" label="Bicicletários" targetlayout="bicicletarios"
-                icon="auditoria_cicloviaria_icons/bicicletarios.png" />
+        </row>
+        <row>
+            <button type="page" label="Acessos" targetlayout="acesso_ciclovias" icon="auditoria_cicloviaria_icons/bike_lane_access.png" />
+            <button type="page" label="Iluminação" targetlayout="iluminacao_estrutura_qte" icon="auditoria_cicloviaria_icons/bike_lane_ilumination_route.png" />
+            <button type="page" label="Bicicletários" targetlayout="bicicletarios" icon="auditoria_cicloviaria_icons/bicicletarios.png" />
         </row>
         <row>
             <button type="voicerec" icon="logo_voice" />
@@ -511,21 +512,35 @@
     <!-- Placas layout -->
     <layout name="placas">
         <row>
-            <button type="tag" label="R-34"
-                icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />
-            <button type="tag" label="A-30"
-                icon="auditoria_cicloviaria_icons/cross_vertical_sign.png" />
-            <button type="tag" label="Complementar"
-                icon="auditoria_cicloviaria_icons/complementary_plate.png" />
+            <!--<button type="tag" label="R-34" icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />-->
+            <button type="tag" label="A-30b" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30b.png" />
+            <button type="tag" label="A-30a" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30a.png" />
         </row>
         <row>
-            <button type="tag" label="Início"
-                icon="auditoria_cicloviaria_icons/bike_lane_start.png" />
-            <button type="tag" label="Fim"
-                icon="auditoria_cicloviaria_icons/bike_lane_end.png" />
-            <button type="tag" label="Semáforo exclusivo"
-                icon="auditoria_cicloviaria_icons/bicicle_traffic_light.png" />
+            <button type="tag" label="A-30b" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30b.png" />
+            <button type="tag" label="A-30a" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30a.png" />
         </row>
+        <row>
+            <button type="tag" label="R1" icon="auditoria_cicloviaria_icons/stop_r1.png" />
+            <button type="tag" label="R2" icon="auditoria_cicloviaria_icons/stop_r2.png" />
+        </row>
+        <row>
+            <button type="tag" label="Semáforo Ciclista" icon="" />
+            <button type="tag" label="Placa para Ciclista" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Totem" icon="" />
+            <button type="tag" label="Atravesse" icon="" />
+        </row>
+        <!--
+        <row>
+            <button type="tag" label="20km/h"
+                icon="auditoria_cicloviaria_icons/speed_sign_20.png" />
+            <button type="tag" label="30km/h" icon="auditoria_cicloviaria_icons/speed_sign_30.png" />
+            <button type="tag" label="40km/h"
+                icon="auditoria_cicloviaria_icons/speed_sign_40.png" />
+        </row>
+        
         <row>
             <button type="tag" label="20km/h"
                 icon="auditoria_cicloviaria_icons/speed_sign_20.png" />
@@ -541,7 +556,9 @@
             <button type="tag" label="80km/h"
                 icon="auditoria_cicloviaria_icons/speed_sign_80.png" />
         </row>
+        -->
         <row>
+            <button type="tag" label="Complementar" icon="auditoria_cicloviaria_icons/complementary_plate.png" />
             <button type="tag" label="Remover Placa 🗑️" icon="" />
         </row>
     </layout>
@@ -770,6 +787,44 @@
         </row>
         <row>
             <button type="tag" label="Remover Bicicletário 🗑️" icon="" />
+        </row>
+    </layout>
+
+
+    <!-- page CRUZAMENTOS -->
+    <layout name="cruzamentos">
+        <row>
+            <button type="page" label="Faixas a cruzar" targetlayout="faixas" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Rampas" targetlayout="rampas" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Pintura" targetlayout="pintura" icon="" />
+        </row>
+        <row>
+            <button type="page" label="Placas" targetlayout="placas" icon="" />
+        </row>
+    </layout>
+
+    <!-- page RAMPAS -->
+    <layout name="rampas">
+        <row>
+            <button type="tag" label="Travessia elevada" icon="" />
+            <button type="tag" label="Rampa Suave / Acessível" icon="auditoria_cicloviaria_icons/rampas-suave-acessivel.png" />
+            <button type="tag" label="Degrau / Guia Baixa" icon="auditoria_cicloviaria_icons/rampas-degrau-guia-baixa.png" />
+        </row>
+        <row>
+            <button type="tag" label="Muito íngrime / Curta" icon="" />
+            <button type="tag" label="Degrau Alto / Perigo" icon="auditoria_cicloviaria_icons/rampas_degrau_alto_perigoso.png" />
+        </row>
+        <row>
+            <button type="tag" label="Rampa Desalinhada" icon="" />
+            <button type="tag" label="Pintura Desalinhada" icon="auditoria_cicloviaria_icons/rampas_pintura_desalinhada.png" />
+            <button type="tag" label="Sem Rampa" icon="auditoria_cicloviaria_icons/rampas_sem_rampa.png" />
+        </row>
+        <row>
+            <button type="tag" label="Remover Rampa 🗑️" icon="" />
         </row>
     </layout>
 
