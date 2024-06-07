@@ -510,7 +510,7 @@
     </layout>
 
     <!-- Placasm layout -->
-    <layout name="placas">
+    <layout name="placasm">
         <row>
             <!--<button type="tag" label="R-34" icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />-->
             <button type="tag" label="A-30b" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30b.png" />
@@ -552,7 +552,7 @@
 
 
 <!-- Placasc layout -->
-    <layout name="placas">
+    <layout name="placasc">
              <row>
             <button type="tag" label="Semáforo Dedicado Ciclistas" icon="" />
             <button type="tag" label="Semáforo Pedestres" icon="" />
