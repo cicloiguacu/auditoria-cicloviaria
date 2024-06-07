@@ -10,7 +10,7 @@
                 icon="auditoria_cicloviaria_icons/sinuosity.png" />
         </row>
         <row>
-            <button type="page" label="Placas" targetlayout="placasc"
+            <button type="page" label="Sinalização Vertical" targetlayout="placasc"
                 icon="auditoria_cicloviaria_icons/on_way_vertical_sign_route.png" />
             <button type="page" label="Sinalização Horizontal"
                 targetlayout="sinalizacao_horizontal_qte"
@@ -808,10 +808,10 @@
             <button type="page" label="Pintura" targetlayout="pintura" icon="" />
         </row>
         <row>
-            <button type="page" label="Placas motoristas" targetlayout="placasm" icon="" />
+            <button type="page" label="Placas motoristas 🚗" targetlayout="placasm" icon="" />
         </row>
         <row>
-            <button type="page" label="Placas ciclistas" targetlayout="placasc" icon="" />
+            <button type="page" label="Placas ciclistas 🚲" targetlayout="placasc" icon="" />
         </row>
     </layout>
 
@@ -835,5 +835,6 @@
             <button type="tag" label="Remover Rampa 🗑️" icon="" />
         </row>
     </layout>
+</layout>
 
 </layouts>
