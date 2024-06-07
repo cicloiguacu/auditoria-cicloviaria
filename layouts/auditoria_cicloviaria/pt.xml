@@ -509,7 +509,7 @@
         </row>
     </layout>
 
-    <!-- Placas layout -->
+    <!-- Placasm layout -->
     <layout name="placas">
         <row>
             <!--<button type="tag" label="R-34" icon="auditoria_cicloviaria_icons/on_way_vertical_sign.png" />-->
@@ -521,16 +521,8 @@
             <button type="tag" label="A-30a" icon="auditoria_cicloviaria_icons/cross_vertical_sign_a30a.png" />
         </row>
         <row>
-            <button type="tag" label="R1" icon="auditoria_cicloviaria_icons/stop_r1.png" />
-            <button type="tag" label="R2" icon="auditoria_cicloviaria_icons/stop_r2.png" />
-        </row>
-        <row>
-            <button type="tag" label="Semáforo Ciclista" icon="" />
-            <button type="tag" label="Placa para Ciclista" icon="" />
-        </row>
-        <row>
-            <button type="tag" label="Totem" icon="" />
-            <button type="tag" label="Atravesse" icon="" />
+            <button type="tag" label="R-1" icon="auditoria_cicloviaria_icons/stop_r1.png" />
+            <button type="tag" label="R-2" icon="auditoria_cicloviaria_icons/stop_r2.png" />
         </row>
         <!--
         <row>
@@ -557,11 +549,25 @@
                 icon="auditoria_cicloviaria_icons/speed_sign_80.png" />
         </row>
         -->
+
+
+<!-- Placasc layout -->
+    <layout name="placas">
+             <row>
+            <button type="tag" label="Semáforo Dedicado Ciclistas" icon="" />
+            <button type="tag" label="Semáforo Pedestres" icon="" />
+        </row>
+        <row>
+            <button type="tag" label="Totem" icon="" />
+            <button type="tag" label="Placa Baixa (novas)" icon="" />
+        </row>
+       
         <row>
             <button type="tag" label="Complementar" icon="auditoria_cicloviaria_icons/complementary_plate.png" />
             <button type="tag" label="Remover Placa 🗑️" icon="" />
         </row>
     </layout>
+
 
     <!-- Page Sinalização Horizontal - Quantitativo -->
     <layout name="sinalizacao_horizontal_qte">
@@ -802,11 +808,11 @@
         <row>
             <button type="page" label="Pintura" targetlayout="pintura" icon="" />
         </row>
-           <row>
-            <button type="page" label="Placas a motoristas" targetlayout="placas" icon="" />
+        <row>
+            <button type="page" label="Placas motoristas 🚗" targetlayout="placasm" icon="" />
         </row>
    <row>
-            <button type="page" label="Placas a ciclistas" targetlayout="placas" icon="" />
+            <button type="page" label="Placas ciclistas 🚲" targetlayout="placasc" icon="" />
         </row>
     </layout>
 
@@ -814,12 +820,12 @@
     <layout name="rampas">
         <row>
             <button type="tag" label="Travessia elevada" icon="" />
-            <button type="tag" label="Rampa Suave / Acessível" icon="auditoria_cicloviaria_icons/rampas_suave_acessivel.png" />
-            <button type="tag" label="Degrau / Guia Baixa" icon="auditoria_cicloviaria_icons/rampas_degrau_guia_baixa.png" />
+            <button type="tag" label="Rampa Suave/Acessível" icon="auditoria_cicloviaria_icons/rampas_suave_acessivel.png" />
+            <button type="tag" label="Degrau/Guia Baixa" icon="auditoria_cicloviaria_icons/rampas_degrau_guia_baixa.png" />
         </row>
         <row>
-            <button type="tag" label="Muito íngrime / Curta" icon="" />
-            <button type="tag" label="Degrau Alto / Perigo" icon="auditoria_cicloviaria_icons/rampas_degrau_alto_perigoso.png" />
+            <button type="tag" label="Muito íngrime/Curta" icon="" />
+            <button type="tag" label="Degrau Alto/Perigo" icon="auditoria_cicloviaria_icons/rampas_degrau_alto_perigoso.png" />
         </row>
         <row>
             <button type="tag" label="Rampa Desalinhada" icon="" />
