@@ -808,10 +808,10 @@
             <button type="page" label="Pintura" targetlayout="pintura" icon="" />
         </row>
         <row>
-            <button type="page" label="Placas motoristas 🚗" targetlayout="placasm" icon="" />
+            <button type="page" label="Placas motoristas" targetlayout="placasm" icon="" />
         </row>
         <row>
-            <button type="page" label="Placas ciclistas 🚲" targetlayout="placasc" icon="" />
+            <button type="page" label="Placas ciclistas" targetlayout="placasc" icon="" />
         </row>
     </layout>
 
