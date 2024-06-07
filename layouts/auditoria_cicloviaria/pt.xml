@@ -553,7 +553,7 @@
 
 <!-- Placasc layout -->
     <layout name="placasc">
-             <row>
+        <row>
             <button type="tag" label="Semáforo Dedicado Ciclistas" icon="" />
             <button type="tag" label="Semáforo Pedestres" icon="" />
         </row>
@@ -561,7 +561,6 @@
             <button type="tag" label="Totem" icon="" />
             <button type="tag" label="Placa Baixa (novas)" icon="" />
         </row>
-       
         <row>
             <button type="tag" label="Complementar" icon="auditoria_cicloviaria_icons/complementary_plate.png" />
             <button type="tag" label="Remover Placa 🗑️" icon="" />
@@ -811,7 +810,7 @@
         <row>
             <button type="page" label="Placas motoristas 🚗" targetlayout="placasm" icon="" />
         </row>
-   <row>
+        <row>
             <button type="page" label="Placas ciclistas 🚲" targetlayout="placasc" icon="" />
         </row>
     </layout>
