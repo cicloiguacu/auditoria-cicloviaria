@@ -173,36 +173,35 @@
         </row-->
         <row>
             <button type="tag" label="1"
-                icon="1.png" />
+                icon="auditoria_cicloviaria_icons/1.png" />
             <button type="tag" label="2"
-                icon="2.png" />
+                icon="auditoria_cicloviaria_icons/2.png" />
         </row>
         <row>
             <button type="tag" label="3"
-                icon="3.png" />
+                icon="auditoria_cicloviaria_icons/3.png" />
             <button type="tag" label="4"
-                icon="4.png" />
+                icon="auditoria_cicloviaria_icons/4.png" />
         </row>
             <row>
             <button type="tag" label="1+1"
-                icon="1+1.png" />
+                icon="auditoria_cicloviaria_icons/1+1.png" />
             <button type="tag" label="1+2"
-                icon="1+2.png" />
+                icon="auditoria_cicloviaria_icons/1+2.png" />
         </row>
         <row>
            <button type="tag" label="2+1"
-                icon="2+1.png" />
+                icon="auditoria_cicloviaria_icons/2+1.png" />
             <button type="tag" label="2+2"
-                icon="2+2.png" />
+                icon="auditoria_cicloviaria_icons/2+2.png" />
        
         </row>
              <row>
-            <button type="tag" label="Possui ilha?"
-                icon="ilha.png" />
+            <button type="tag" label="Possui ilha/canteiro"
+                icon="auditoria_cicloviaria_icons/ilha.png" />
           <button type="tag" label="Outro" icon="auditoria_cicloviaria_icons/other.png"/>
         </row>
          <row>
-            <button type="tag" label="Outro segregador" icon="auditoria_cicloviaria_icons/other.png" />
             <button type="textnote" icon="logo_textnote" />
         </row>
         <row></row>
